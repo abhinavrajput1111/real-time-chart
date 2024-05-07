@@ -1,0 +1,33 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to top left, #ffecd2, #fcb69f);
+  color: white;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+canvas {
+  max-width: 100%;
+  height: auto;
+  animation: fadeIn 1s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
